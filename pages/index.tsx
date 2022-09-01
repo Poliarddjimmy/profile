@@ -13,10 +13,10 @@ const Home: NextPage = () => {
       <div className="main shadow">
         <div className="container">
 
-          <header className=''>
+          <header className='header'>
             <div className="row">
               <div className="col-md-4 main-bg left-side"></div>
-              <div className="col-md-8 right-side d-flex align-items-center px-5">
+              <div className="col-lg-8 col-md-12 right-side d-flex align-items-center px-5">
                 <nav>
                   <Link href="/">
                     <a className={`${router.asPath === '/' ? "active" : null}`}>Home</a>
@@ -45,22 +45,34 @@ const Home: NextPage = () => {
           <div className="top">
             <div className="row">
               <div className="col-md-4 bg-light left-side">
-                <div className="">
+                <div className="d-flex align-items-center">
                   {
                     // eslint-disable-next-line @next/next/no-img-element
                     <img src="/images/me.png" alt="" />
                   }
                 </div>
               </div>
-              <div className="col-md-8 bg-light right-side d-flex flex-column justify-content-center pl-5">
+              <div className="col-lg-8 col-md-12 bg-light right-side d-flex flex-column justify-content-center pl-5">
                 <h1 className="text-primarys">Djimmy Poliard</h1>
                 <h5 className="text-muted">Full-Stack Softwate Engineer</h5>
               </div>
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-md-4 main-bg left-side p-5">
+          <div className="row content">
+            <div className="col-lg-4 col-md-4 col-xl-4 main-bg left-side pad-5">
+              <div className="header-mobile">
+                <div className="d-flex flex-column w-100">
+                  {
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src="/images/me.png" alt="" />
+                  }
+                  <div className="mt-3 w-100">
+                    <h1 className="text-white">Djimmy Poliard</h1>
+                    <h5 className="text-muted">Full-Stack Softwate Engineer</h5>
+                  </div>
+                </div>
+              </div>
               <div className="block">
                 <div>
                   <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>contact</h6>
@@ -381,7 +393,8 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-8 right-side p-5 text-justify">
+
+            <div className="col-lg-8 col-md-12 right-side pad-5 text-justify">
               <div className="block">
                 <div>
                   <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>Profile</h6>
