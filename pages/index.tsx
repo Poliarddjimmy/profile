@@ -62,12 +62,12 @@ const Home: NextPage = () => {
           <div className="row content">
             <div className="col-lg-4 col-md-4 col-xl-4 main-bg left-side pad-5">
               <div className="header-mobile">
-                <div className="d-flex flex-column w-100">
+                <div className="d-flex flex-column align-items-center w-100">
                   {
                     // eslint-disable-next-line @next/next/no-img-element
                     <img src="/images/me.png" alt="" />
                   }
-                  <div className="mt-3 w-100">
+                  <div className="mt-3 text-center">
                     <h1 className="text-white">Djimmy Poliard</h1>
                     <h5 className="text-muted">Full-Stack Software Engineer</h5>
                   </div>
