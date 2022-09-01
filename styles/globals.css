@@ -136,7 +136,7 @@ header .left-side, header .right-side {
   }
 
   .header-mobile img {
-    width: 100%;
+    width: 60%;
     position: static;
   }
 
