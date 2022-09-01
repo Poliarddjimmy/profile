@@ -341,6 +341,16 @@ const Home: NextPage = () => {
 
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
+                      <span>Redis</span>
+                    </span>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
+                      <span>Websocket</span>
+                    </span>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
                       <span>RabbitMQ</span>
                     </span>
 
@@ -357,6 +367,18 @@ const Home: NextPage = () => {
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
                       <span>Azure DevOps</span>
+                    </span>
+
+                    <strong className="mt-3">Like</strong>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
+                      <span>Golang</span>
+                    </span>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
+                      <span>Flutter</span>
                     </span>
                   </span>
                 </div>
