@@ -163,7 +163,7 @@ const Home: NextPage = () => {
               </div>
 
               <div className="block mt-5">
-                <div>
+                <div className="left">
                   <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>COURSES & TRAINING</h6>
                   <span className="d-flex flex-column">
                     <strong>freeCodeCamp</strong>
@@ -213,9 +213,9 @@ const Home: NextPage = () => {
               </div>
 
               <div className="block mt-5">
-                <div>
+                <div className="left">
                   <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>Skills</h6>
-                  <span className="d-flex flex-column">
+                  <span className="d-flex flex-column skills">
                     <strong>Top</strong>
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
@@ -386,9 +386,9 @@ const Home: NextPage = () => {
 
 
               <div className="block mt-5">
-                <div>
+                <div className="left">
                   <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>soft Skills</h6>
-                  <span className="d-flex flex-column">
+                  <span className="d-flex flex-column skills">
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
                       <span>Good communication</span>
@@ -418,7 +418,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="col-lg-8 col-md-12 right-side pad-5 text-justify">
+            <div className="col-lg-8 col-md-8 col-xl-8 right-side pad-5 text-justify">
               <div className="block">
                 <div>
                   <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>Profile</h6>

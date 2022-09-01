@@ -112,15 +112,55 @@ header .left-side, header .right-side {
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (max-width: 1189px) and (min-width: 767px){
   .header-mobile img {
     border-radius: 50%;
     width: 100%;
+  }
+  .container.main-container {
+    padding: 0;
   }
 }
 
 .pad-5 {
   padding: 3rem !important;
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+  .container.main-container {
+    padding: 0;
+  }
+  .top .left-side img {
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 10px;
+    position: static;
+  }
+
+  .header-mobile {
+    display: block;
+  }
+
+  .header-mobile img {
+    width: 60%;
+    position: static;
+  }
+
+  .top, header {
+    display: none;
+  }
+
+  .left-side, .right-side {
+    min-height: 100vh;
+  }
+
+  .content .right-side {
+    background-color: #F9F9F9;
+  }
+
+  .pad-5 {
+    padding: 1rem !important;
+  }
 }
 
 @media (max-width: 1024px) {
