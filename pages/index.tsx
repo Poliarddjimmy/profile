@@ -1,11 +1,15 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import SEO from '../components/seo';
 
 const Home: NextPage = () => {
   const router = useRouter();
   return (
     <div className="container main-container">
+      <SEO
+        title="Home"
+      />
       <div className="main shadow">
         <div className="container">
 
@@ -44,7 +48,7 @@ const Home: NextPage = () => {
                 <div className="">
                   {
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src="/images/moi.png" alt="" />
+                    <img src="/images/me.png" alt="" />
                   }
                 </div>
               </div>
