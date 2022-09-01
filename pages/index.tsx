@@ -54,7 +54,7 @@ const Home: NextPage = () => {
               </div>
               <div className="col-lg-8 col-md-12 bg-light right-side d-flex flex-column justify-content-center pl-5">
                 <h1 className="text-primarys">Djimmy Poliard</h1>
-                <h5 className="text-muted">Full-Stack Softwate Engineer</h5>
+                <h5 className="text-muted">Full-Stack Software Engineer</h5>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                   }
                   <div className="mt-3 w-100">
                     <h1 className="text-white">Djimmy Poliard</h1>
-                    <h5 className="text-muted">Full-Stack Softwate Engineer</h5>
+                    <h5 className="text-muted">Full-Stack Software Engineer</h5>
                   </div>
                 </div>
               </div>
