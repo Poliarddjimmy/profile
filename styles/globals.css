@@ -1,9 +1,54 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "./bootstrap.css";
+@import "./others/css/font-awesome.min.css";
+
+:root {
+  --app-sidebar-width: 200px;
+  --app-sidebar-min-width: 60px;
+  --app-header-height: 60px;
+  --app-header-top-height: 100px;
+  --app-padding: 1rem;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-image: url("/images/bg0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.main-bg {
+  /* background-color: #01223b; */
+  /* background-color: #0c4483c0; */
+  background-color: #262A30;
+}
+
+.container.main-container {
+  padding: 0 15rem;
+}
+
+.main {
+  background-color: #F9F9F9;
+  height: 100vh;
+}
+
+nav a {
+  margin-right: 20px;
+  color: #262A30;
+}
+
+nav a.active, nav a:hover {
+  color: #262A30;
+  border-bottom: #262A30 solid 2px;
 }
 
 a {
@@ -15,12 +60,38 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.main header {
+  height: var(--app-header-height);
 }
+
+.top, .top .left-side, .top .right-side {
+  height: var(--app-header-top-height);
+}
+
+.left-side, .right-side {
+  height: calc(100vh - var(--app-header-height) - var(--app-header-top-height));
+  overflow-y: auto;
+}
+
+.left-side .block {
+  color: #b1b1b1;
+}
+
+header .left-side, header .right-side {
+  height: var(--app-header-height);
+}
+
+.top .left-side img {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 3.5%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: #C6C8CB solid 3px;
+}
+
+.block .material-icons, .block .fa {
+  font-size: 1.3rem;
+  color: #fff;
+  }
