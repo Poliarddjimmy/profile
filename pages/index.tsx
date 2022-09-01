@@ -84,7 +84,7 @@ const Home: NextPage = () => {
                   <span className="d-flex align-items-center mb-2">
                     <span className="material-icons mr-2">email</span>
                     <span>
-                      <a href="mailto:djimmypoliard@gmail.com" className="">
+                      <a href="mailto:djimmypoliard@gmail.com">
                         djimmypoliard@gmail.com
                       </a>
                     </span>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                   <span className="d-flex align-items-center mb-2">
                     <span className="material-icons mr-2">location_on</span>
                     <span>
-                      <a href="https://www.google.com/maps/place/Punta+Cana/@18.640825,-68.7584524,11z/data=!3m1!4b1!4m5!3m4!1s0x8ea891645dcbfe77:0x61881cfaed12f6f3!8m2!3d18.5600761!4d-68.372535" target="_blanc" className="">
+                      <a href="https://www.google.com/maps/place/Punta+Cana/@18.640825,-68.7584524,11z/data=!3m1!4b1!4m5!3m4!1s0x8ea891645dcbfe77:0x61881cfaed12f6f3!8m2!3d18.5600761!4d-68.372535" target="_blanc">
                         Punta Cana, DR
                       </a>
                     </span>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                   <span className="d-flex align-items-center mb-2">
                     <span className="fa fa-linkedin mr-2" />
                     <span>
-                      <a href="https://www.linkedin.com/in/djimmy-poliard-41b1b4b9/" target="_blanc" className="">
+                      <a href="https://www.linkedin.com/in/djimmy-poliard-41b1b4b9/" target="_blanc">
                         Djimmy Poliard
                       </a>
                     </span>
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
                   <span className="d-flex align-items-center mb-2">
                     <span className="fa fa-github mr-2" />
                     <span>
-                      <a href="https://github.com/Poliarddjimmy" target="_blanc" className="">
+                      <a href="https://github.com/Poliarddjimmy" target="_blanc">
                         Poliarddjimmy
                       </a>
                     </span>
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
                   <span className="d-flex align-items-center mb-2">
                     <span className="fa fa-twitter mr-2" />
                     <span>
-                      <a href="https://twitter.com/poliard88" target="_blanc" className="">
+                      <a href="https://twitter.com/poliard88" target="_blanc">
                         poliard88
                       </a>
                     </span>
@@ -438,10 +438,10 @@ const Home: NextPage = () => {
                   <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>work experience</h6>
                   <div className="d-flex flex-column">
                     <strong>Full-stack Engineer</strong>
-                    <span className="">BairesDev | <span className="text-muted">2021 - Present</span></span>
+                    <span>BairesDev | <span className="text-muted">2021 - Present</span></span>
                     <div>
                       During this time I participated in the following projects:
-                      <ul className="">
+                      <ul>
                         <li>
                           <strong>Client: Amount (September 2021 – Aug 2022)</strong>
                           <p>
@@ -485,30 +485,11 @@ const Home: NextPage = () => {
 
                   <div className="d-flex flex-column mt-3">
                     <strong>Software Development Consultant</strong>
-                    <span className="">Dixivox | <span className="text-muted">2018 - Present</span></span>
+                    <span>Dixivox | <span className="text-muted">Since 2018</span></span>
                     <div>
                       A company that builds solutions based on communication and education. <br />
                       During this time I participated in the following projects:
-                      <ul className="">
-                        <li>
-                          <strong>Project: Sinat (August 2018 – August 2019)</strong>
-                          <p>
-                            Sinat is a communication solution where people can by an international number to make local and international calls.
-                            <br />
-                            <span>Main tasks executed in the project:</span>
-                            <br />
-                            - participate in the front-end development.
-                            <br />
-                            - develop a complex form with dynamic input.
-                            <br />
-                            My major contribution to the app is the integration of stipe. Allow the customer payment on the platform.
-                            <br />
-                            <strong>Technologies:</strong> React.js, PostgreSQL, Stripe, Git, Github
-                            <br />
-                            {/* Link: <a href="https://zsinat.com/ " target="_blanc">https://zsinat.com/ </a> */}
-                          </p>
-                        </li>
-
+                      <ul>
                         <li>
                           <strong>Project: Edikatek (Dec 2019 –Dec 2020)</strong>
                           <p>
@@ -556,14 +537,43 @@ const Home: NextPage = () => {
                   </div>
 
                   <div className="d-flex flex-column mt-3">
+                    <strong>Front-End Developer</strong>
+                    <span>Ztelecom | <span className="text-muted">2018 - 2019</span></span>
+                    <div>
+                      A company that builds solutions based on communication and education. <br />
+                      During this time I participated in the following projects:
+                      <ul>
+                        <li>
+                          <strong>Project: Sinat (August 2018 – August 2019)</strong>
+                          <p>
+                            Sinat is a communication solution where people can by an international number to make local and international calls.
+                            <br />
+                            <span>Main tasks executed in the project:</span>
+                            <br />
+                            - participate in the front-end development.
+                            <br />
+                            - develop a complex form with dynamic input.
+                            <br />
+                            My major contribution to the app is the integration of stipe. Allow the customer payment on the platform.
+                            <br />
+                            <strong>Technologies:</strong> React.js, PostgreSQL, Stripe, Git, Github
+                            <br />
+                            {/* Link: <a href="https://zsinat.com/ " target="_blanc">https://zsinat.com/ </a> */}
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="d-flex flex-column mt-3">
                     <strong>Software Engineer</strong>
-                    <span className="">NouKòd | <span className="text-muted">Apr 2019 – Mar 2021</span></span>
+                    <span>NouKòd | <span className="text-muted">Apr 2019 – Mar 2021</span></span>
                     <div>
                       NouKod is an IT business and revenue-generating entity. The business aspect provides jobs for ALL newly trained IT and programming specialists via
                       local contracts and global outsourcing. <br />
                       During this time I participated in the following projects:
 
-                      <ul className="">
+                      <ul>
                         <li>
                           <strong>Project: to the point (October 2020 – March 2021)</strong>
                           <p>
