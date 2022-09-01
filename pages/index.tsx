@@ -216,6 +216,7 @@ const Home: NextPage = () => {
                 <div>
                   <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>Skills</h6>
                   <span className="d-flex flex-column">
+                    <strong>Top</strong>
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
                       <span>Ruby on Rails</span>
@@ -228,17 +229,17 @@ const Home: NextPage = () => {
 
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
-                      <span>React Native</span>
-                    </span>
-
-                    <span className="d-flex align-items-center">
-                      <span className="material-icons mr-2">blur_on</span>
                       <span>TypeScript</span>
                     </span>
 
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
                       <span>Next.js</span>
+                    </span>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
+                      <span>React Native</span>
                     </span>
 
                     <span className="d-flex align-items-center">
@@ -323,17 +324,24 @@ const Home: NextPage = () => {
 
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
+                      <span>Sidekiq</span>
+                    </span>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
+                      <span>Stripe</span>
+                    </span>
+
+                    <strong className="mt-3">Familiar with</strong>
+
+                    <span className="d-flex align-items-center">
+                      <span className="material-icons mr-2">blur_on</span>
                       <span>Node.js</span>
                     </span>
 
                     <span className="d-flex align-items-center">
                       <span className="material-icons mr-2">blur_on</span>
                       <span>RabbitMQ</span>
-                    </span>
-
-                    <span className="d-flex align-items-center">
-                      <span className="material-icons mr-2">blur_on</span>
-                      <span>Sidekiq</span>
                     </span>
 
                     <span className="d-flex align-items-center">
@@ -350,12 +358,6 @@ const Home: NextPage = () => {
                       <span className="material-icons mr-2">blur_on</span>
                       <span>Azure DevOps</span>
                     </span>
-
-                    <span className="d-flex align-items-center">
-                      <span className="material-icons mr-2">blur_on</span>
-                      <span>Stripe</span>
-                    </span>
-
                   </span>
                 </div>
               </div>
