@@ -17,7 +17,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -35,13 +34,10 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/public/favicon/favicon-16x16.png"
           />
-
-          <meta name="description" content="Portfolio" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         </Head>
-        <body className="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+        <body>
           <Main />
           <NextScript />
         </body>
