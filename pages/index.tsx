@@ -468,17 +468,6 @@ const Home: NextPage = () => {
                             Link: <a href="https://www.amount.com/ " target="_blanc">https://www.amount.com/ </a>
                           </p>
                         </li>
-
-                        <li>
-                          <strong>Client: Place Inc | Aug 2022 - Current</strong>
-                          <p>
-                            Place cms:  PLACE is the industry’s only all-in-one real estate platform providing
-                            technology and services to the top 20% of real estate agents focused on delivering
-                            unparalleled consumer experiences.
-                            <br />
-                            <strong>Technologies:</strong> Ruby on Rails, RESTl API, Sideqik, Redis, RabbitMQ, React, PostgreSQL, Javascript, Git, Github, Docker
-                          </p>
-                        </li>
                       </ul>
                     </div>
                   </div>
