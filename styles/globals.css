@@ -106,6 +106,10 @@ header .left-side, header .right-side {
   border-radius: 50%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 820px) {
   .container.main-container {
     padding: 0;
@@ -196,3 +200,4 @@ header .left-side, header .right-side {
     padding: 1rem !important;
   }
 }
+

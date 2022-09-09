@@ -20,19 +20,19 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/public/favicon/apple-touch-icon.png"
+            href="/favicon/apple-touch-icon.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/public/favicon/favicon-32x32.png"
+            href="/favicon/favicon-32x32.png" 
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/public/favicon/favicon-16x16.png"
+            href="/favicon/favicon-16x16.png"
           />
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

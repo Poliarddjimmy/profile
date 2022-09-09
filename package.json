@@ -9,10 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.5.8",
+    "@ckeditor/ckeditor5-build-classic": "^32.0.0",
+    "@ckeditor/ckeditor5-react": "^4.0.0",
+    "@createnextapp/async-local-storage": "^1.0.1",
+    "apollo-cache-persist": "^0.1.1",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.0.0",
     "jspdf": "1.4.1",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.26.1",
+    "react-toast-notifications": "^2.4.4",
+    "use-local-storage": "^2.2.6"
   },
   "devDependencies": {
     "@types/node": "18.7.14",
