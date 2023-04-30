@@ -40,7 +40,7 @@ const Content = ({print}: ContentProps) => {
                     </div>
                     <div className="col-lg-8 col-md-12 bg-light right-side d-flex flex-column justify-content-center pl-5">
                         <h1 className="text-primarys">Djimmy Poliard</h1>
-                        <h5 className="text-muted">Full-Stack Software Engineer</h5>
+                        <h5 className="text-muted">Full-Stack Software Developer</h5>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Content = ({print}: ContentProps) => {
                             }
                             <div className="mt-3 text-center">
                                 <h1 className="text-white">Djimmy Poliard</h1>
-                                <h5 className="text-muted">Full-Stack Software Engineer</h5>
+                                <h5 className="text-muted">Full-Stack Software Developer</h5>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Content = ({print}: ContentProps) => {
                             <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>contact</h6>
                             <span className="d-flex align-items-center mb-2">
                                 <span className="material-icons mr-2">smartphone</span>
-                                <span>+1 (829) 859-2489</span>
+                                <span><a href="tel:+1 (407) 468-3155">+1 (407) 468-3155</a></span>
                             </span>
 
                             <span className="d-flex align-items-center mb-2">
@@ -79,8 +79,8 @@ const Content = ({print}: ContentProps) => {
                             <span className="d-flex align-items-center mb-2">
                                 <span className="material-icons mr-2">location_on</span>
                                 <span>
-                                    <a href="https://www.google.com/maps/place/Punta+Cana/@18.640825,-68.7584524,11z/data=!3m1!4b1!4m5!3m4!1s0x8ea891645dcbfe77:0x61881cfaed12f6f3!8m2!3d18.5600761!4d-68.372535" target="_blanc">
-                                        Punta Cana, DR
+                                    <a href="https://goo.gl/maps/Bzf23Eqe3yG5ZoTM7" target="_blanc">
+                                        Miami Fl, USA
                                     </a>
                                 </span>
                             </span>
@@ -409,7 +409,7 @@ const Content = ({print}: ContentProps) => {
                         <div>
                             <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>Profile</h6>
                             <p>
-                                Full-stack Engineer with {(new Date()).getFullYear() - 2015}+ years of experience building scalable web
+                                Full-stack Developer with {(new Date()).getFullYear() - 2015}+ years of experience building scalable web
                                 applications and internal tools that drastically improve efficiency. <br />
                                 Throughout my career {`I've`} built applications like fintech platform,
                                 communication, e-commerce, Point Of Sale(POS), HR management, School management,
@@ -423,13 +423,59 @@ const Content = ({print}: ContentProps) => {
                         <div>
                             <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>work experience</h6>
                             <div className="d-flex flex-column">
-                                <strong>Full-stack Engineer</strong>
-                                <span>BairesDev | <span className="text-muted">2021 - Present</span></span>
+                                <strong>Full-stack Developer</strong>
+                                <span>Golabs | <span className="text-muted">2022 - Current</span></span>
                                 <div>
                                     During this time I participated in the following projects:
                                     <ul>
                                         <li>
-                                            <strong>Client: Amount (September 2021 – Aug 2022)</strong>
+                                            <strong>Client: Finalsite (August 2022 – Current)</strong>
+                                            <p>
+                                                Team up with other engineers on an Education CMS platform using several technologies
+                                                <br />
+
+                                                <span>Main tasks executed in the project:</span>
+                                                <br />
+                                                - Problem solving
+                                                <br />
+                                                - Code review
+                                                <br />
+                                                - Develop new features
+                                                <br />
+                                                <strong>Technologies:</strong> Ruby on Rails, Backbone JS
+                                                <br />
+                                                Link: <a href="https://www.finalsite.com/ " target="_blanc">https://www.finalsite.com/ </a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="d-flex flex-column">
+                                <strong>Full-stack Developer</strong>
+                                <span>BairesDev | <span className="text-muted">2021 - 2023</span></span>
+                                <div>
+                                    During this time I participated in the following projects:
+                                    <ul>
+                                        <li>
+                                            <strong>Client: Place Inc (August 2022 – April 2023)</strong>
+                                            <p>
+                                                PLACE is the industry’s only all-in-one real estate platform providing technology 
+                                                and services to the top 20% of real estate agents focused on delivering unparalleled 
+                                                consumer experiences.
+                                                <br />
+
+                                                <span>Main tasks executed in the project:</span>
+                                                <br />
+                                                - work on the reports modul(backend and frontend)
+                                                <br />
+                                                <strong>Technologies:</strong> Ruby on Rails, Sidekiq, RSpec, PostgreSQL, Redis, Git, Github, Docker, React JS
+                                                <br />
+                                                Link: <a href="https://place.com/ " target="_blanc">https://place.com/ </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <strong>Client: Amount (September 2021 – August 2022)</strong>
                                             <p>
                                                 Team up with other engineers on banking and point-of-sale solutions using
                                                 several technologies such as Ruby on Rails, GraphQl, Sidekiq, Python, Go...
@@ -541,7 +587,7 @@ const Content = ({print}: ContentProps) => {
                             </div>
 
                             <div className="d-flex flex-column mt-3">
-                                <strong>Software Engineer</strong>
+                                <strong>Software Developer</strong>
                                 <span>NouKòd | <span className="text-muted">Apr 2019 – Mar 2021</span></span>
                                 <div>
                                     NouKod is an IT business and revenue-generating entity. The business aspect provides jobs for ALL newly trained IT and programming specialists via

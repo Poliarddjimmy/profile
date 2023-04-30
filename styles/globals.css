@@ -27,8 +27,6 @@ body {
 }
 
 .main-bg {
-  /* background-color: #01223b; */
-  /* background-color: #0c4483c0; */
   background-color: #262A30;
 }
 
@@ -38,7 +36,6 @@ body {
 
 .main {
   background-color: #F9F9F9;
-  height: 100vh;
 }
 
 nav a {
@@ -84,12 +81,16 @@ header .left-side, header .right-side {
 
 .top .left-side img {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 3.5%;
   border-radius: 50%;
   width: 10%;
   height: auto;
   border: #C6C8CB solid 3px;
+}
+
+.top {
+  background-color: #262A30;
 }
 
 .block .material-icons, .block .fa {
