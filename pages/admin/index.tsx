@@ -1,12 +1,9 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import withAuth from "../../components/hocs/withAuth"
 import SEO from "../../components/seo"
-import useAuth from "../../hooks/useAuth"
 
 const AdminPage = () => {
     const [editBlock, setEditBlock] = useState<string | ''>('')
-    const {currentUserData} = useAuth()
     useEffect(() => {
         if (typeof window !== 'undefined') {
             console.log('window', window.location.hostname)
@@ -73,4 +70,4 @@ const AdminPage = () => {
     )
 }
 
-export default withAuth(AdminPage)
+export default AdminPage
