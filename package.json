@@ -12,7 +12,6 @@
     "@createnextapp/async-local-storage": "^1.0.1",
     "jspdf": "1.4.1",
     "next": "12.2.5",
-    "prisma": "^4.14.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.26.1",

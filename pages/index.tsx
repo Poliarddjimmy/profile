@@ -1,5 +1,4 @@
 import type { GetStaticProps, NextPage } from 'next';
-import prisma from '../lib/prisma';
 import Layout from '../components/layouts/layout';
 import LeftSide from '../components/layouts/left_side';
 
@@ -342,19 +341,3 @@ const Home = ({ feed }: HomeProps) => {
 }
 
 export default Home
-
-export const getStaticProps: GetStaticProps = async () => {
-  const feed = await prisma.post.findMany({
-    where: { published: true },
-    include: {
-      author: {
-        select: { name: true },
-      },
-    },
-  });
-
-  return {
-    props: { feed },
-    revalidate: 10,
-  };
-};
