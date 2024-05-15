@@ -9,7 +9,7 @@ const Header = () => {
             <div className="row">
               <div className="col-md-4 main-bg left-side"></div>
               <div className="col-lg-8 col-md-12 right-side d-flex align-items-center px-5">
-                <nav>
+                {/* <nav>
                   <Link href="/">
                     <a className={`${router.asPath === '/' ? "active" : null}`}>Home</a>
                   </Link>
@@ -17,7 +17,7 @@ const Header = () => {
                     <Link href="/blogs">
                         <a className={`${router.asPath === '/blogs' ? "active" : null}`}>Blogs</a>
                     </Link>
-                </nav>
+                </nav> */}
 
                 <div className="ml-auto">
                   <Link href="/files/djimmy_poliard_resume.pdf">
@@ -36,7 +36,7 @@ const Header = () => {
                 <div className="d-flex align-items-center">
                   {
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src="/images/me.png" alt="" />
+                    <img src="/images/me.jpg" alt="" />
                   }
                 </div>
               </div>

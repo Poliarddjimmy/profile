@@ -7,7 +7,7 @@ const LeftSide = () => {
             <div className="d-flex flex-column align-items-center w-100">
               {
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src="/images/me.png" alt="" />
+                <img src="/images/me.jpg" alt="" />
               }
               <div className="mt-3 text-center">
                 <h1 className="text-white">Djimmy Poliard</h1>
