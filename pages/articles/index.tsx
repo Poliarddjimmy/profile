@@ -33,7 +33,7 @@ const Blogs = () => {
                 ) :
                 posts?.map((post: BlogInterface, index: number) => (
                     <Link href={`/articles/${post.slug}`} key={index}>
-                        <div className="blog rounded shadow mb-3 d-flex align-items-center">
+                        <div className="blog rounded-left shadow mb-3 d-flex align-items-center">
                             {
                                 // eslint-disable-next-line @next/next/no-img-element
                                 <img src={post.image} alt="Uploaded Image" width="100" />

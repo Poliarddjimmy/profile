@@ -36,14 +36,14 @@ const Home = ({ feed }: HomeProps) => {
               <div className="accordion accordion-flush" id="accordionExample">
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingOne">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                       <span className="d-flex flex-column">
                         <strong>Full-stack Software Developer</strong>
                         <span>Golabs | <span className="text-muted">August 2022 - January 2024</span></span>
                       </span>
                     </button>
                   </h2>
-                  <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" className="accordion-collapse collapse shows" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
                       <div>
                         A technology company headquartered in Costa Rica, with US headquarters based in Stamford, CT <br /><br />
