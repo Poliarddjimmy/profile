@@ -219,7 +219,7 @@ header .left-side, header .right-side {
 
 /* kjadbkjhabdfkjdbsdkjfbksdjbk */
   .left-side, .right-side {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
   .content .right-side {
