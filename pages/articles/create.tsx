@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Layout from "../../components/layouts/layout"
 import LeftSide from "../../components/layouts/left_side"
 import { useForm, Controller } from "react-hook-form"
@@ -75,14 +75,15 @@ const CreateBlogs = () => {
 
     const handleFileChange = (e: any) => {
         setSelectedFile(e.target.files[0]);
-        handleSubmitImg(e);
     };
+    
+    useEffect(() => {
+        selectedFile && handleSubmitImg(selectedFile);
+    }, [selectedFile]);
 
-    const handleSubmitImg = async (e: any) => {
-        e.preventDefault();
+    const handleSubmitImg = async (img: any) => {
         const formData = new FormData();
-        // @ts-ignore
-        formData.append('file', selectedFile);
+        formData.append('file', img);
 
         const response = await fetch('/api/upload-image', {
             method: 'POST',
