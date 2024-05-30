@@ -5,14 +5,16 @@ interface LayoutProps {
     children: React.ReactNode;
     title?: string;
     description?: string;
+    image?: string;
 }
 
-const Layout = ({ children, title }: LayoutProps) => {
+const Layout = ({ children, title, image }: LayoutProps) => {
     return (
         
       <div className="container main-container">
       <SEO
         title={title || "Home"}
+        image={image}
       />
       <div className="main shadow">
         <div className="container">

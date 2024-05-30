@@ -24,7 +24,7 @@ const Blog = () => {
     
   
     return (
-        <Layout title={post?.title}>
+        <Layout title={post?.title} image={post?.image}>
     
           <div className="row content">
             <LeftSide />

@@ -4,7 +4,8 @@ import { useRouter } from 'next/router'
 export default function SEO({
   title,
   description,
-}: {title: string, description?: string}) {
+  image
+}: {title: string, description?: string, image?: string}) {
 
   const router = useRouter();
   const siteTitle = `Djimmy Poliard | ${title}`;
@@ -19,7 +20,7 @@ export default function SEO({
     <meta property="og:type" content="website" key="type" />
     <meta name="keywords" content="curri culum, poliard, djimmy, poliard djimmy, djimmy poliard, jimmy, cv, portfolio, web, web dev, full, full stack, software" key="keywords" />
 
-    <meta name="image" property="og:image" content="/favicon/android-chrome-192x192.png" key="image" />
+    <meta name="image" property="og:image" content={image || '/favicon/android-chrome-192x192.png'} key="image" />
     <meta property="og:image:width" content="300" key="og:image:width" />
     <meta property="og:image:height" content="300" key="og:image:height" />
 
@@ -30,10 +31,10 @@ export default function SEO({
     <meta name="twitter:site" content="@poliard88" />
     <meta name="twitter:title" content={siteTitle} />
     <meta name="twitter:description" content={siteDescription} />
-    <meta name="twitter:image" content="/favicon/android-chrome-192x192.png" />
+    <meta name="twitter:image" content={image || "/favicon/android-chrome-192x192.png"} />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href={image || "/favicon/favicon-32x32.png"} />
+    <link rel="icon" type="image/png" sizes="16x16" href={image || "/favicon/favicon-16x16.png"} />
   </Head>
 }
