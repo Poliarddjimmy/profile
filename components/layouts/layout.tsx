@@ -3,18 +3,20 @@ import SEO from '../../components/seo';
 
 interface LayoutProps {
     children: React.ReactNode;
+    title?: string;
+    description?: string;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, title }: LayoutProps) => {
     return (
         
       <div className="container main-container">
       <SEO
-        title="Home"
+        title={title || "Home"}
       />
       <div className="main shadow">
         <div className="container">
-          <Header />
+          <Header title={title} />
           {children}
           </div>
         </div>

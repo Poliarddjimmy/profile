@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { useRouter } from 'next/router';
 
-const Header = () => {
+interface HeaderPorps {
+  title?: string;
+}
+
+const Header = ({title}: HeaderPorps) => {
     const router = useRouter();
     return (
         <>
@@ -14,8 +18,8 @@ const Header = () => {
                     <a className={`${router.asPath === '/' ? "active" : null}`}>Home</a>
                   </Link>
 
-                    <Link href="/blogs">
-                        <a className={`${router.asPath === '/blogs' ? "active" : null}`}>Blogs</a>
+                    <Link href="/articles">
+                        <a className={`${router.asPath.includes('/articles') ? "active" : null}`}>Articles</a>
                     </Link>
                 </nav>
 
@@ -41,11 +45,11 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-lg-8 col-md-12 bg-light right-side d-flex flex-column justify-content-center pl-5">
-                {router.asPath === '/blogs' ? 
+                {router.asPath.includes('/articles') ?
                   (
                     <>
-                      <h1 className="text-primarys">Blogs</h1>
-                      <h5 className="text-muted">My blogs</h5>
+                      <h1 className="text-primarys">Articles</h1>
+                      <h5 className="text-muted">{title ? title : 'My articles'}</h5>
                     </>
                   ) : (
                     <>

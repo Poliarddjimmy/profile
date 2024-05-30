@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 @import "./bootstrap.css";
 @import "./others/css/font-awesome.min.css";
+@import "./blogs.css";
 
 :root {
   --app-sidebar-width: 200px;

@@ -1,4 +1,4 @@
-export const ColorPicketRamdomly = () => {
+export const colorPicketRamdomly = () => {
     const colors = [
         // "#FF0000",
         // "#00FF00",

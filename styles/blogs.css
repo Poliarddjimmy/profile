@@ -1,0 +1,10 @@
+.blog {
+    border: 1px solid #e0e0e0;
+    border-left: 10px solid darkgray;
+    border-right: 10px solid darkgray;
+    cursor: pointer;
+}
+
+.blog h3 {
+    color: darkgray;
+}

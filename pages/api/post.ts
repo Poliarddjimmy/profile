@@ -3,12 +3,16 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
-    const { rows } = await sql`SELECT * FROM Posts;`;
-    const posts = rows;
+    let { slug } = req.query
+    slug = slug as string
     
-    res.status(200).json({ posts: posts });
+    const { rows, fields } =
+    await sql`SELECT * FROM posts WHERE slug=${slug} LIMIT ${1}`;
+    
+    res.status(200).json({ post: rows[0] });
+  
   } catch (error: any) {
-    console.error("Error fetching posts:", error);
+    console.error("Error fetching post:", error);
     res.status(500).json({ error: error.message });
   }
 }
