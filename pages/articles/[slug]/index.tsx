@@ -24,8 +24,8 @@ const Blog = () => {
     }, [router.query.slug])
     
     const recontent = (co: any) => {
-        let re = co.replace(/<p>/, '')
-        return re.substring(0, 100)
+        let re = co?.replace(/<p>/, '')
+        return re?.substring(0, 100)
     }    
   
     return (
