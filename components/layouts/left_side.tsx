@@ -1,6 +1,7 @@
 import Link from "next/link"
 import $ from "jquery"
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const LeftSide = () => {
   const router = useRouter();
@@ -16,6 +17,15 @@ const LeftSide = () => {
       $('.pi').addClass('d-none')
     }
   }
+  
+  useEffect(() => {
+    const kkpi = document.querySelector('.kkpi')
+    if (window.innerWidth <= 1024) {
+      kkpi?.classList.add('d-none')
+    } else {
+      kkpi?.classList.remove('d-none')
+    }
+  }, [])
 
   return (
     <div className="col-lg-4 col-md-4 col-xl-4 main-bg left-side pad-5">
@@ -38,16 +48,15 @@ const LeftSide = () => {
           <div className="mt-3 text-center">
             <h1 className="text-white">Djimmy Poliard</h1>
             <h5 className="text-muted">Full-Stack Software Developer</h5>
-
-            <button className="btn btn-dark mt-3 dpi" onClick={sdpi}>Display Personal Info</button>
+            {router.asPath !== '/' && <button className="btn btn-dark mt-3 dpi" onClick={sdpi}>Display Personal Info</button>}
           </div>
         </div>
       </div>
 
-      <div className="pi d-none">
+      <div className={`${router.asPath !== '/' ? "pi kkpi d-nones" : null}`}>
         <div className="block">
           <div>
-            <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1'>contact</h6>
+            <h6 className='w-100 text-light border-bottom mb-3 text-uppercase pb-1 kk'>contact</h6>
             <span className="d-flex align-items-center mb-2">
               <span className="material-icons mr-2">smartphone</span>
               <span><a href="tel:+1 (407) 468-3155">+1 (407) 468-3155</a></span>

@@ -178,7 +178,9 @@ header .left-side, header .right-side {
   .pad-5 {
     padding: 1rem !important;
   }
+  
 }
+
 
 @media (max-width: 1024px) {
   .top .left-side img {
@@ -199,10 +201,6 @@ header .left-side, header .right-side {
 
   .top, header {
     display: none;
-  }
-  
-  .dpi {
-    display: inline-block
   }
   
   .header-mobile nav a {
@@ -229,5 +227,14 @@ header .left-side, header .right-side {
   .pad-5 {
     padding: 1rem !important;
   }
+  
+  /* .kkpi{
+    display: none;
+  } */
+  
+  .dpi {
+    display: inline-block;
+  }
+  
 }
 
