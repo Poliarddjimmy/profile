@@ -8,13 +8,14 @@ interface LayoutProps {
     image?: string;
 }
 
-const Layout = ({ children, title, image }: LayoutProps) => {
+const Layout = ({ children, title, image, description }: LayoutProps) => {
     return (
         
       <div className="container main-container">
       <SEO
         title={title || "Home"}
         image={image}
+        description={description}
       />
       <div className="main shadow">
         <div className="container">

@@ -10,6 +10,7 @@ const Blog = () => {
     const router = useRouter();
     const [post, setPost] = useState<BlogInterface>({title: '', content: '', image: ''} as BlogInterface)
     const [isLoading, setLoading] = useState(true)
+    
    
     useEffect(() => {
         let slug = router.query.slug
@@ -22,9 +23,13 @@ const Blog = () => {
             })
     }, [router.query.slug])
     
+    const recontent = (co: any) => {
+        let re = co.replace(/<p>/, '')
+        return re.substring(0, 100)
+    }    
   
     return (
-        <Layout title={post?.title} image={post?.image}>
+        <Layout title={post?.title} image={post?.image} description={recontent(post?.content)}>
     
           <div className="row content">
             <LeftSide />
