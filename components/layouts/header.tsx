@@ -53,7 +53,7 @@ const Header = ({title}: HeaderPorps) => {
                     </>
                   ) : (
                     <>
-                      <h1 className="text-primarys">Djimmy Poliard</h1>
+                      <h1 className="text-primarys">Djimmy Poliard.</h1>
                       <h5 className="text-muted">Full-Stack Software Developer</h5>
                     </>
                   )
