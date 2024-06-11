@@ -74,8 +74,8 @@ const LeftSide = () => {
             <span className="d-flex align-items-center mb-2">
               <span className="material-icons mr-2">location_on</span>
               <span>
-                <a href="https://goo.gl/maps/Bzf23Eqe3yG5ZoTM7" target="_blanc">
-                  Miami Fl, USA
+                <a href="https://maps.app.goo.gl/p5HKFpAkDsUgDX369" target="_blanc">
+                  Orlando Fl, USA
                 </a>
               </span>
             </span>
