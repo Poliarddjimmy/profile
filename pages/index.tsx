@@ -50,7 +50,7 @@ const Home = ({ feed }: HomeProps) => {
                         During this time I participated in the following projects:
                         <ul>
                           <li>
-                            <strong>Client: Finalsite (August 2022 – Current)</strong>
+                            <strong>Client: Finalsite (August 2022 – January 2024)</strong>
                             <p>
                               Team up with other engineers on an Education CMS platform using several technologies
                               <br />
