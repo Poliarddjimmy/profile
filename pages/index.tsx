@@ -19,7 +19,7 @@ const Home = ({ feed }: HomeProps) => {
             <div>
               <h6 className='w-100  border-bottom mb-3 text-uppercase pb-1'>Profile</h6>
               <p>
-                Full-stack Developer with {(new Date()).getFullYear() - 2015}+ years of experience building scalable web
+                Full-stack Developer with {(new Date()).getFullYear() - 2016}+ years of experience building scalable web
                 applications and internal tools that drastically improve efficiency. <br />
                 Throughout my career {`I've`} built applications like fintech platform,
                 communication, e-commerce, Point Of Sale(POS), HR management, School management,

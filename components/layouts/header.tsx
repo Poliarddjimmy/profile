@@ -15,7 +15,7 @@ const Header = ({title}: HeaderPorps) => {
               <div className="col-lg-8 col-md-12 right-side d-flex align-items-center px-5">
                 <nav>
                   <Link href="/">
-                    <a className={`${router.asPath === '/' ? "active" : null}`}>Home</a>
+                    <a className={`${router.asPath === '/' ? "active" : null}`}>Profile</a>
                   </Link>
 
                     <Link href="/articles">
